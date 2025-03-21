@@ -1,0 +1,565 @@
+body {
+    background-color: #f6f6f6;
+    height: 1920px;
+    width: 1080px;
+    overflow: hidden;
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 100px;
+    position: absolute;
+    top: -24px;
+    left: 180px;
+    white-space: nowrap;
+}
+
+.b1welcome {
+    background-color: #ffffff;  
+    height: 200px;
+    width: 1000px;
+    position: relative;
+    top:195px;
+    left:660px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    justify-content: center;
+    color: #333; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background 0.3s, color 0.3s;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-links{
+    display: flex;
+    position: absolute;
+    margin-top: 500px; 
+    margin-left: 1000px;
+    gap: 15px; 
+}
+
+.nav-links a {
+    font-size: 50px; 
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    background: #333;
+    color: white;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    justify-content: center;
+    color: #333; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background 0.3s, color 0.3s;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-links2 {
+    display: flex;
+    position: absolute;
+    margin-top: 50px; 
+    margin-left: 45px;
+    gap: 15px; 
+}
+
+.nav-links2 a {
+    font-size: 40px; 
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links2 a:hover {
+    background: #333;
+    color: white;
+}
+
+.box1 {
+    background-color: #ffffff; 
+    height: 550px;
+    width: 950px;
+    position: relative;
+    top:150px;
+    left:300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.innerBox1 {
+    background-color: #d9d9d9; 
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border-radius: 20px;
+}
+
+.title h2 {
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: 250px;
+    white-space: nowrap;
+}
+
+.par p {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    white-space: nowrap;
+    color: #959595;
+}
+
+.stat h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    white-space: nowrap;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: #53bd4e;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    left: 252px;
+}
+
+.circle p {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+    white-space: nowrap;
+}
+
+.volt h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: -235px;
+    white-space: nowrap;
+}
+
+.circle1 {
+    height: 15px;
+    width: 15px;
+    background-color: #53bd4e;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: -235px;
+}
+
+.circle1 p {
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+    left: 30px;
+    white-space: nowrap;
+}
+
+.avg h2{
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    white-space: nowrap;
+}
+
+.circle2 {
+    height: 15px;
+    width: 15px;
+    background-color: #53bd4e;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+
+}
+
+.avg p {
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+    left: 30px;
+    white-space: nowrap;
+}
+
+.circle3 {
+    height: 15px;
+    width: 15px;
+    background-color: #53bd4e;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: 370px;
+}
+
+.power h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: 371px;
+    white-space: nowrap;
+}
+
+.power p {
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+    left: 30px;
+    white-space: nowrap;
+}
+
+.box2 {
+    background-color: #ffffff; 
+    height: 400px;
+    width: 950px;
+    position: relative;
+    top:350px;
+    left:-290px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.innerPage1 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: -1px;
+    left: 20px;
+    white-space: nowrap;
+}
+
+.prevol h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 28px;
+    white-space: nowrap;
+}
+
+.prevol p {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 117px;
+    left: 205px;
+    white-space: nowrap;
+}
+
+.precurr h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 180px;
+    left: 28px;
+    white-space: nowrap;
+}
+
+.precurr p {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 177px;
+    left: 205px;
+    white-space: nowrap;
+}
+
+.prefreq h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 240px;
+    left: 28px;
+    white-space: nowrap;
+}
+
+.prefreq p {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 237px;
+    left: 247px;
+    white-space: nowrap;
+}
+
+.surgeC h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+    left: 28px;
+    white-space: nowrap;   
+}
+
+.circle4 {
+    height: 15px;
+    width: 15px;
+    background-color: #53bd4e;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 329px;
+    left: 210px;
+}
+
+.circle4 p {
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: -32px;
+    left: 30px;
+    white-space: nowrap;
+}
+
+.innerBox2 {
+    background-color: #e7e7e7; 
+    height: 320px;
+    width: 570px;
+    position: relative;
+    top: 40px;
+    left: 360px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.box3 {
+    background-color: #ffffff;
+    height: 990px;
+    width: 950px;
+    position: relative;
+    top:-635px;
+    left:780px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.box3 h2 {
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    white-space: nowrap;  
+}
+
+.innerBox3 h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    white-space: nowrap;  
+}
+
+.innerBox3 p {
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 55px;
+    left: 38px;
+    white-space: nowrap;
+}
+
+.status p {
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    left: 38px;
+    white-space: nowrap;
+}
+
+.innerBox3 {
+    background-color: #ffffff;
+    height: 200px;
+    width: 800px;
+    position: relative;
+    top: 130px;
+    left: 75px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    border: 3px solid #9c9c9c;
+}
+
+.innerBox4 {
+    background-color: #ffffff;
+    height: 200px;
+    width: 800px;
+    position: relative;
+    top: 180px;
+    left: 75px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    border: 3px solid #9c9c9c;
+}
+
+.innerBox4 h2 {
+    text-decoration: none;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    white-space: nowrap;  
+}
+
+.innerBox4 p {
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 55px;
+    left: 38px;
+    white-space: nowrap;
+}
+
+.status1 p {
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    left: 38px;
+    white-space: nowrap;
+}
+
+.nav-links3 a {
+    text-decoration: none;
+    justify-content: center;
+    color: #333; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background 0.3s, color 0.3s;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-links3 {
+    display: flex;
+    position: absolute;
+    margin-top: 50px; 
+    margin-left: 45px;
+    gap: 15px; 
+}
+
+.nav-links3 a {
+    font-size: 40px; 
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links3 a:hover {
+    background: #333;
+    color: white;
+}
+
+.box4 {
+    background-color: #ffffff;  
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    top:195px;
+    left:660px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.title2 h2 {
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    white-space: nowrap;
+}
+
+.innerBox5 {
+    background-color: #d9d9d9; 
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border-radius: 20px;
+}
+
+.par1 p {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 267px;
+    white-space: nowrap;
+    color: #959595;
+}
+
+.nav-links4 {
+    display: flex;
+    position: absolute;
+    top: 360px;  
+    left: 930px; 
+    gap: 15px; 
+    z-index: 1000;
+}
+
+.nav-links4 a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 30px; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background 0.3s, color 0.3s;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-links4 a:hover {
+    background: #333;
+    color: white;
+}
+
