@@ -30,6 +30,9 @@ body {
 
 .right-column {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 /* 📦 BOX CONTAINERS */
@@ -54,7 +57,19 @@ body {
 
 /* Make Alert box taller */
 .box3 {
-    min-height: 600px; /* Makes it as tall as both left column boxes combined */
+    min-height: 320px;
+}
+
+/* Make Voltage Graph box taller */
+.box4 {
+    min-height: 350px;
+}
+
+/* Chart container styles */
+.chart-container {
+    width: 100%;
+    height: 280px;
+    position: relative;
 }
 
 /* 📝 TITLES AND HEADINGS */

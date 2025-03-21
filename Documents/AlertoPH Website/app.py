@@ -10,7 +10,7 @@ app = Flask(__name__)
 def serve_file(path):
     return send_from_directory('.', path)
 
-# Serve main page
+# Serve main page   
 @app.route('/')
 def index():
     return send_from_directory('.', 'dashboard.html')
