@@ -1,0 +1,147 @@
+.box4 {
+    background-color: #ffffff;
+    height: 300px;
+    width: 1000px;
+    position: relative;
+    margin-top: 50px;
+    left: 660px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.box4:hover {
+    transform: translateY(-8px);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Inner Box (Grey Box) */
+.innerBox5 {
+    background-color: #d9d9d9;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border-radius: 20px;
+}
+
+/* Title Section */
+.title2 h2 {
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    white-space: nowrap;
+}
+
+/* Paragraph Section */
+.par1 p {
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 267px;
+    white-space: nowrap;
+    color: #959595;
+}
+
+/* Status Indicator */
+.status-indicator {
+    position: absolute;
+    top: 140px; /* Position below the address text */
+    left: 267px;
+    display: flex;
+    align-items: center;
+}
+
+.status-circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Status Circle Colors */
+.status-circle.optimal {
+    background-color: #53bd4e; /* Green */
+    box-shadow: 0 0 8px rgba(83, 189, 78, 0.5);
+}
+
+.status-circle.warning {
+    background-color: #ff9800; /* Orange */
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.5);
+}
+
+.status-circle.danger {
+    background-color: #f44336; /* Red */
+    box-shadow: 0 0 8px rgba(244, 67, 54, 0.5);
+}
+
+.status-indicator span {
+    font-size: 18px;
+    color: #555;
+}
+
+/* View Button - Stays Inside the Card */
+.nav-links4 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Button Default Style */
+.nav-links4 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    transition: all 0.2s ease-in-out;
+}
+
+/* CARD HOVER: Button moves WITH the card */
+.box4:hover .nav-links4 a {
+    transform: translateY(-2px); /* Slight lift with the card */
+}
+
+/* BUTTON HOVER: Separate from Card */
+.nav-links4 a:hover {
+    background-color: #ffa726; /* Subtle Orange Hover */
+    color: #fff;
+    transform: scale(1.05) translateY(-3px); /* Slight enlarge */
+}
+
+/* Back button styling */
+.nav-links3 {
+    position: absolute;
+    top: 100px;
+    left: 660px;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.back-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    background-color: #f8f8f8;
+}
+
+.back-button i {
+    margin-right: 8px;
+}

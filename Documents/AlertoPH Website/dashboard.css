@@ -1,0 +1,244 @@
+/* 🎉 GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    padding: 0;
+    /* Will use font from style.css */
+}
+
+/* Dashboard Content Layout */
+.dashboard-container {
+    display: flex;
+    padding: 40px;
+    gap: 35px;
+    max-width: 1400px; /* Increased from 1200px */
+    margin: 0 auto;
+    margin-top: 75px; /* Space for navbar */
+}
+
+.left-column {
+    flex: 1.2; /* Slightly larger left column */
+    display: flex;
+    flex-direction: column;
+    gap: 35px; /* Increased from 25px */
+}
+
+.right-column {
+    flex: 1;
+}
+
+/* 📦 BOX CONTAINERS */
+.box {
+    background-color: #ffffff;
+    border-radius: 16px; /* Increased from 12px */
+    padding: 40px; /* Increased from 30px */
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    min-height: 250px; /* Minimum height for boxes */
+}
+
+.box:hover {
+    transform: translateY(-8px); /* Increased from -5px */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Make Apartment box taller */
+.box1 {
+    min-height: 320px;
+}
+
+/* Make Alert box taller */
+.box3 {
+    min-height: 600px; /* Makes it as tall as both left column boxes combined */
+}
+
+/* 📝 TITLES AND HEADINGS */
+h2 {
+    font-size: 24px; /* Increased from 20px */
+    margin-bottom: 20px; /* Increased from 15px */
+    font-weight: bold;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px; /* Increased from 18px */
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+p {
+    color: #555;
+    font-size: 16px; /* Increased from 14px */
+    margin-bottom: 10px;
+}
+
+/* Back button */
+.nav-links {
+    padding: 30px 0 0 40px;
+    margin-top: 65px; /* Space for navbar */
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px; /* Increased from 16px */
+    color: #333;
+    text-decoration: none;
+    padding: 12px 20px; /* Increased from 10px 15px */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.back-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    background-color: #f8f8f8;
+}
+
+.back-button i {
+    margin-right: 10px;
+    font-size: 20px; /* Larger icon */
+}
+
+/* 🟢 STATUS CIRCLES */
+.status {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.circle {
+    height: 16px; /* Increased from 12px */
+    width: 16px; /* Increased from 12px */
+    background-color: #53bd4e;
+    border-radius: 50%;
+    margin-right: 12px;
+    display: inline-block;
+    box-shadow: 0 0 8px rgba(83, 189, 78, 0.5);
+}
+
+/* 🚨 ALERT CIRCLES */
+.status.warning .circle {
+    background-color: #ff9800;
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.5);
+}
+
+.status.danger .circle {
+    background-color: #f44336;
+    box-shadow: 0 0 8px rgba(244, 67, 54, 0.5);
+}
+
+/* Box1 - Apartment Info */
+.box1-header {
+    display: flex;
+    margin-bottom: 30px; /* Increased from 20px */
+}
+
+.box1-img {
+    width: 120px; /* Increased from 100px */
+    height: 120px; /* Increased from 100px */
+    background-color: #eee;
+    margin-right: 25px; /* Increased from 20px */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.box1-info {
+    flex: 1;
+}
+
+.box1-info p {
+    font-size: 15px; /* Increased from 13px */
+    margin-bottom: 15px;
+}
+
+/* Properties layout for both boxes */
+.property-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Increased from 15px */
+    padding-bottom: 15px; /* Increased from 10px */
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.property-row:last-child {
+    border-bottom: none;
+}
+
+.property-label {
+    width: 180px; /* Increased from 160px */
+    font-weight: bold;
+    color: #444;
+    font-size: 17px; /* Increased from 15px */
+}
+
+.property-value {
+    flex: 1;
+    font-size: 17px; /* Increased from 15px */
+    color: #555;
+}
+
+/* Alerts */
+.alert {
+    border: 1px solid #f0f0f0;
+    padding: 30px; /* Increased from 20px */
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 30px; /* Increased from 20px */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.alert:hover {
+    transform: translateY(-5px); /* Increased from -3px */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+.alert:last-child {
+    margin-bottom: 0;
+}
+
+.alert h3 {
+    font-size: 20px; /* Increased from 17px */
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.alert p {
+    font-size: 17px; /* Increased from 15px */
+    margin-bottom: 12px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+        padding: 25px;
+        gap: 25px;
+    }
+        
+    .left-column, .right-column {
+        width: 100%;
+    }
+    
+    .box {
+        padding: 25px;
+        min-height: auto;
+    }
+    
+    .box1-img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .property-label {
+        width: 150px;
+    }
+}

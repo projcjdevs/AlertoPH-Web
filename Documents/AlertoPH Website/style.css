@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Open Sauce';
+    src: url('open-sauce.one-regular.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'Open Sauce';
+    src: url('open-sauce.one-semibold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Open Sauce', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding-top: 55px;
+  }
+  
+  .navbar{
+    background-color: #f6f8fa;
+    height: 75px;
+    border-bottom: 1px solid #d0d7de; 
+    box-shadow: 0 3px 4px rgba(23, 23, 23, 0.1);
+    position: fixed;  
+    top: 0;           
+    left: 0;
+    width: 100%;      
+    z-index: 1000; 
+  }
+  
+  .navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* This keeps everything centered */
+    height: 100%; /* Ensure it takes full navbar height */
+    padding: 0 15px; /* Add space on sides */
+}
+  
+  .logo-container {
+    display: flex;
+    align-items: center; 
+    padding-left: 15px;
+  }
+  
+  #logotxt {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  
+  #logoimg {
+    height: 50px; 
+    width: auto; 
+  }

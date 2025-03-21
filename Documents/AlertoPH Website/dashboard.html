@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AlertoVolt</title>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" type="image/png" href="AlertoVolt Logo.png">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar (from style.css) -->
+    <div class="navbar">
+        <div class="navbar-section">
+            <div class="logo-container">
+                <img id="logoimg" src="AlertoVolt Logo.png" alt="Logo">
+                <span id="logotxt">:AlertoVolt</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Back button with icon -->
+    <div class="nav-links">
+        <a href="home.html" class="back-button">
+            <i class="fa-solid fa-list"></i> Back to Home
+        </a>
+    </div>
+
+    <!-- Dashboard content -->
+    <div class="dashboard-container">
+        <!-- Left column -->
+        <div class="left-column">
+            <!-- 📦 Box 1 (Apartment Info) -->
+            <div class="box box1">
+                <div class="box1-header">
+                    <div class="box1-img"></div>
+                    <div class="box1-info">
+                        <h2>Apartment</h2>
+                        <p>165 Shoe Avenue, San Roque Marikina City | CAN-18246228696</p>
+                        
+                        <div class="status">
+                            <div class="circle"></div>
+                            <p>Optimal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="property-row">
+                    <div class="property-label">Voltmeter:</div>
+                    <div class="property-value">220V - 230V</div>
+                </div>
+
+                <div class="property-row">
+                    <div class="property-label">Avg. Consumption:</div>
+                    <div class="property-value">8-12 kWh/day</div>
+                </div>
+
+                <div class="property-row">
+                    <div class="property-label">Power Source:</div>
+                    <div class="property-value">Main Grid Supply</div>
+                </div>
+            </div>
+
+            <!-- 📦 Box 2 (DVT Info) -->
+            <div class="box box2">
+                <h2>Dynamic Voltage Tracker (DVT)</h2>
+
+                <div class="property-row">
+                    <div class="property-label">Voltage (V):</div>
+                    <div class="property-value">220V-230V</div>
+                </div>
+
+                <div class="property-row">
+                    <div class="property-label">Current (A):</div>
+                    <div class="property-value">10A-15A</div>
+                </div>
+
+                <div class="property-row">
+                    <div class="property-label">Frequency (Hz):</div>
+                    <div class="property-value">60 Hz</div>
+                </div>
+
+                <div class="property-row">
+                    <div class="property-label">Surge Count:</div>
+                    <div class="property-value">
+                        <div class="status">
+                            <div class="circle"></div>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right column -->
+        <div class="right-column">
+            <!-- 📦 Box 3 (Alerts) -->
+            <div class="box box3">
+                <h2>Alerts</h2>
+
+                <div class="alert">
+                    <h3>Surge Dropped</h3>
+                    <p>190V-210V</p>
+                    <div class="status warning">
+                        <div class="circle"></div>
+                        <p>Status: Warning (Low V)</p>
+                    </div> 
+                </div>
+
+                <div class="alert">
+                    <h3>Voltage Hiked</h3>
+                    <p>240V-250V</p>
+                    <div class="status danger">
+                        <div class="circle"></div>
+                        <p>Status: Warning (High V)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="dashboard.js"></script>
+
+</body>
+</html>

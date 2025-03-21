@@ -1,0 +1,7 @@
+[core]
+	editor = \"C:\\Users\\Charles\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	name = projcjdevs
+	email = cjcabatian5.@gmail.com
+[credential]
+	helper = store
